@@ -1,6 +1,6 @@
 region: us-west-2
 
-function_name: get
+function_name: put
 handler: service.handler
 role: pizzashop-role
 description: My first lambda function
