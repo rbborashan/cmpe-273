@@ -26,15 +26,6 @@ def handler(event, context):
 
         choices=''.join('{}. {} '.format(key, val) for key, val in selections.items())
 
-        message = {
-            'Message': 'Hi ' + event['customer_name'] +
-            ', please choose one of these selections:  ' + choices
-        }
+        message = 'Hi ' + event['customer_name'] + ', please choose one of these selections:  ' + choices
 
-        return {
-            'statusCode': '200',
-            'headers': {
-                'Content-Type': 'application/json'
-            },
-            'body': message
-        }
+        return {'Message': message}
