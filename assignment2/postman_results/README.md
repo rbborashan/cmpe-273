@@ -1,16 +1,16 @@
 ## Postman Screenshots
 #
 ### Menu
-1. POST
+#### POST
 ![post_menu](menu_post.png)
 
-2. GET
+#### GET
 ![get_menu](menu_get.png)
 
-3. PUT
+#### PUT
 ![put_menu](menu_put.png)
 
-5. DELETE
+#### DELETE
 ![delete_menu](menu_delete.png)
 
 ### Order
