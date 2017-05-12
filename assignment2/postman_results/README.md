@@ -1,6 +1,5 @@
 ## Postman Screenshots
 #
-#
 ### Menu
 1. POST
 ![post_menu](menu_post.png)
