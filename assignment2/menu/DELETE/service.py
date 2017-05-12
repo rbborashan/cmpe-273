@@ -7,8 +7,8 @@ def handler(event, context):
 
         return {
             'statusCode': '200',
-            'body': table.delete_item(Key = event['key']),
             'headers': {
                 'Content-Type': 'application/json'
-            }
+            },
+            'body': table.delete_item(Key = event['key'])
         }

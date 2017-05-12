@@ -5,7 +5,7 @@ def handler(event, context):
 
     	table = boto3.resource('dynamodb', region_name='us-west-2').Table('Menu')
 
-        return {        
+        return {
             'statusCode': '200',
             'headers': {
                 'Content-Type': 'application/json'

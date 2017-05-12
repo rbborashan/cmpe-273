@@ -7,12 +7,12 @@ def handler(event, context):
 
         return {
             'statusCode': '200',
-            'body': table.update_item(
-                        Key = event['key'],
-                        UpdateExpression = 'SET selection = :val1',
-                        ExpressionAttributeValues = {':val1': event['body']['selection']}
-            ),
             'headers': {
-                'Content-Type': 'application/json',
-            }
+                'Content-Type': 'application/json'
+            },
+            'body': table.update_item(
+                    Key = event['key'],
+                    UpdateExpression = 'SET selection = :val1',
+                    ExpressionAttributeValues = {':val1': event['body']['selection']}
+            )
         }

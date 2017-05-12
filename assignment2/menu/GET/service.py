@@ -7,8 +7,8 @@ def handler(event, context):
 
         return {
             'statusCode': '200',
-            'body': table.get_item(Key=event).get('Item'),
             'headers': {
-                'Content-Type': 'application/json',
+                'Content-Type': 'application/json'
             },
+            'body': table.get_item(Key=event).get('Item')
         }
