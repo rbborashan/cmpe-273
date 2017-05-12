@@ -1,13 +1,9 @@
 {
-  "key": {"menu_id": "test"},
-  "body":
-  {
-    "menu_id": "test",
-    "store_name": "Pizza Hut",
-    "selection": [
-        "Cheese",
-        "Pepperoni",
-        "Vegetable"
-    ]
-  }
+   "menu_id": "test",
+   "store_name": "Pizza Hut",
+   "selection": [
+       "Cheese",
+       "Pepperoni",
+       "Vegetable"
+   ]
 }
