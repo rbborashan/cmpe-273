@@ -14,3 +14,15 @@
 ![delete_menu](menu_delete.png)
 
 ### Order
+#### POST
+![post_order](order_post.png)
+
+#### PUT #1
+![put_menu1](order_put1.png)
+
+#### PUT #2
+![put_menu2](order_put2.png)
+
+#### GET
+![get_order](order_get.png)
+
